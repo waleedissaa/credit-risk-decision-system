@@ -21,7 +21,7 @@ importance = pd.DataFrame({
 }).sort_values(by="Importance", ascending=False)
 
 st.bar_chart(importance.set_index("Feature"))
-
+st.caption("Feature importance shows which factors most influence loan approval decisions. Credit history is typically the strongest predictor.")
 st.sidebar.header("Input Borrower Details")
 
 gender = st.sidebar.selectbox("Gender", ["Male", "Female"])
@@ -60,7 +60,9 @@ if st.sidebar.button("Predict Loan Decision"):
     prediction = model.predict(input_data)[0]
     probability = model.predict_proba(input_data)[0][1]
 
-    st.subheader("Result")
+    st.divider()
+    st.subheader("Loan Decision Result")
+    st.caption("Decision is based on predicted approval probability using a trained machine learning model.")
 
     if prediction == 1:
         st.success("Loan Recommendation: Approve")

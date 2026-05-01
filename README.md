@@ -4,6 +4,14 @@
 
 This project builds a machine learning–based decision system to assess loan applications and predict approval likelihood. It combines predictive modeling with business decision rules and an interactive dashboard.
 
+## Dashboard Preview
+![Dashboard](reports/figures/dashboard.png)
+
+## Business Insights
+- Credit history was one of the most influential factors in loan approval predictions.
+- The model combines machine learning outputs with decision logic to support loan assessment.
+- The dashboard allows users to test borrower profiles and view approval probability in real time.
+
 ## Features
 
 * Data cleaning and preprocessing pipeline
