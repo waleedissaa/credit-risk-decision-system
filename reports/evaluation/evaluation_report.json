@@ -1,0 +1,43 @@
+{
+  "model": "RandomForestClassifier",
+  "validation_rows": 123,
+  "metrics": {
+    "accuracy": 0.8048780487804879,
+    "precision": 0.8351648351648352,
+    "recall": 0.8941176470588236,
+    "f1_score": 0.8636363636363636,
+    "roc_auc": 0.7907120743034056
+  },
+  "classification_report": {
+    "Rejected": {
+      "precision": 0.71875,
+      "recall": 0.6052631578947368,
+      "f1-score": 0.6571428571428571,
+      "support": 38.0
+    },
+    "Approved": {
+      "precision": 0.8351648351648352,
+      "recall": 0.8941176470588236,
+      "f1-score": 0.8636363636363636,
+      "support": 85.0
+    },
+    "accuracy": 0.8048780487804879,
+    "macro avg": {
+      "precision": 0.7769574175824177,
+      "recall": 0.7496904024767802,
+      "f1-score": 0.7603896103896104,
+      "support": 123.0
+    },
+    "weighted avg": {
+      "precision": 0.7991992763334227,
+      "recall": 0.8048780487804879,
+      "f1-score": 0.7998416217928414,
+      "support": 123.0
+    }
+  },
+  "generated_files": {
+    "confusion_matrix": "reports/evaluation/confusion_matrix.png",
+    "roc_curve": "reports/evaluation/roc_curve.png",
+    "feature_importance": "reports/evaluation/feature_importance.png"
+  }
+}
