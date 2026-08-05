@@ -1,6 +1,6 @@
 {
   "model_type": "RandomForestClassifier",
-  "created_at_utc": "2026-08-04T02:16:37.961441+00:00",
+  "created_at_utc": "2026-08-05T06:16:54.669192+00:00",
   "dataset": "data/raw/train_u6lujuX_CVtuZ9i.csv",
   "total_rows": 614,
   "training_rows": 491,
